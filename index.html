@@ -3,90 +3,79 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Real Sparks</title>
-<meta name="description" content="Real Sparks makes small, calm games. More to come.">
+<title>Real Sparks LLC. Electrify Your Business.</title>
+<meta name="description" content="Real Sparks LLC: websites and email for small businesses since 2011, and small, calm games for families.">
 <style>
   :root{
-    --ink:#1D2733;
-    --cream:#F4F1EA;
-    --gold:#F5B324;
-    --orange:#F49E16;
-    --yellow:#F7CE2E;
-    --accent:#E4572E;
+    --ink:#1D2733; --slate:#3F4653; --body:#43505F; --muted:#5A6A7A;
+    --accent:#E4572E; --accent-dark:#B35E00; --line:#E3DDD0; --card:#FDFBF7;
   }
   *{box-sizing:border-box}
   html,body{margin:0;padding:0}
-  body{
-    background:var(--cream);
-    color:var(--ink);
-    font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    text-align:center;
-    padding:48px 24px 32px;
-  }
-  .burst{width:120px;height:120px;margin-bottom:8px}
-  h1{
-    font-size:clamp(2.4rem,7vw,3.6rem);
-    letter-spacing:.01em;
-    margin:10px 0 6px;
-    font-weight:800;
-  }
-  p.tagline{
-    font-size:clamp(1.05rem,3.4vw,1.3rem);
-    margin:0 0 30px;
-    color:#43505f;
-  }
-  a.games-btn{
-    display:inline-block;
-    background:var(--accent);
-    color:#fff;
-    text-decoration:none;
-    font-weight:700;
-    font-size:1.1rem;
-    padding:15px 34px;
-    border-radius:999px;
-    box-shadow:0 6px 18px rgba(228,87,46,.35);
-  }
-  a.games-btn:hover{background:#cf4a24}
-  p.soon{
-    margin:22px 0 0;
-    font-size:.98rem;
-    color:#6b7887;
-  }
-  footer{
-    margin-top:56px;
-    font-size:.85rem;
-    color:#8a96a3;
-    line-height:1.7;
+  body{background:#FFFFFF;color:var(--ink);font-family:"Avenir Next","Segoe UI",system-ui,-apple-system,sans-serif;padding:30px 40px}
+  .wrap{max-width:1060px;margin:0 auto}
+  nav{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:16px;flex-wrap:wrap;gap:14px}
+  nav img.logo{width:250px;height:auto;display:block}
+  nav .links{font-size:.95rem}
+  nav .links a{color:var(--body);text-decoration:none;margin-left:22px;font-weight:600}
+  nav .links a:hover{color:var(--accent)}
+  .hero{max-width:680px;margin:52px 0 30px}
+  h1{font-size:2.4rem;line-height:1.15;margin:0 0 14px;color:var(--slate)}
+  .hero p{color:var(--body);font-size:1.12rem;line-height:1.55;margin:0}
+  .cards{display:flex;gap:18px;max-width:900px;flex-wrap:wrap}
+  .card{flex:1 1 300px;border:1px solid var(--line);border-radius:16px;padding:22px;background:var(--card)}
+  .card h2{margin:0 0 8px;font-size:1.2rem;color:var(--slate)}
+  .card p{color:var(--muted);margin:0 0 14px;line-height:1.5}
+  .card a{color:var(--accent);font-weight:700;text-decoration:none}
+  .card a:hover{text-decoration:underline}
+  .services{max-width:900px;margin:38px 0 0;border-top:1px solid var(--line);padding-top:24px}
+  .services h2{font-size:1rem;text-transform:uppercase;letter-spacing:.12em;color:var(--accent-dark);margin:0 0 10px}
+  .services p{color:var(--muted);line-height:1.6;margin:0}
+  footer{margin-top:48px;font-size:.85rem;color:#8A96A3;line-height:1.7;border-top:1px solid var(--line);padding-top:18px}
+  @media (max-width:640px){
+    body{padding:22px 20px}
+    nav img.logo{width:200px}
+    nav .links a{margin-left:14px}
+    h1{font-size:1.9rem}
+    .hero{margin:36px 0 24px}
   }
 </style>
 </head>
 <body>
-  <svg class="burst" viewBox="0 0 100 100" aria-hidden="true">
-    <g transform="translate(50 50)">
-      <g fill="#F5B324">
-        <rect x="-30" y="-30" width="60" height="60" rx="4"/>
-        <rect x="-30" y="-30" width="60" height="60" rx="4" transform="rotate(45)"/>
-      </g>
-      <g fill="#F49E16">
-        <rect x="-19" y="-19" width="38" height="38" rx="3"/>
-        <rect x="-19" y="-19" width="38" height="38" rx="3" transform="rotate(45)"/>
-      </g>
-      <circle r="10" fill="#F7CE2E"/>
-    </g>
-  </svg>
-  <h1>Real Sparks</h1>
-  <p class="tagline">Small, calm games. No timers, no energy meters, no noise.</p>
-  <a class="games-btn" href="https://games.realsparks.net/">Play Real Sparks Games</a>
-  <p class="soon">More to come.</p>
-  <footer>
-    Real Sparks<br>
-    Created by Matthew Haber<br>
-    © 2026 Real Sparks. All rights reserved.
-  </footer>
+<div class="wrap">
+  <nav>
+    <a href="https://realsparks.net/"><img class="logo" src="logo.svg" alt="Real Sparks LLC logo"></a>
+    <div class="links">
+      <a href="about.html">About</a>
+      <a href="https://games.realsparks.net/">Games</a>
+      <a href="https://www.linkedin.com/in/matthewhaber/">LinkedIn</a>
+    </div>
+  </nav>
+
+  <div class="hero">
+    <h1>Electrify Your Business.</h1>
+    <p>Real Sparks is the studio of Matthew Haber. Since 2011 it has built websites and run email for small businesses. Today it also publishes small, calm browser games for families.</p>
+  </div>
+
+  <div class="cards">
+    <div class="card">
+      <h2>For small businesses</h2>
+      <p>Clean, practical websites and low-hassle email admin, handled entirely over email. Real Sparks' first project, the Volunteer Realty website in Knoxville, Tennessee, launched in 2011, and Matthew still runs their email today.</p>
+      <a href="about.html">About Real Sparks</a>
+    </div>
+    <div class="card">
+      <h2>The games</h2>
+      <p>Popeka!, Creature Park, Thrink, Xenofront, and Scribble Siege. Small, calm games with no timers, no energy meters, and no noise.</p>
+      <a href="https://games.realsparks.net/">Play the games</a>
+    </div>
+  </div>
+
+  <div class="services">
+    <h2>Services</h2>
+    <p>Website design and refreshes, website development, email administration, content creation, search engine optimization, newsletters, social networking, and consulting for small businesses.</p>
+  </div>
+
+  <footer>Real Sparks LLC / Created by Matthew Haber / &copy; 2026 Real Sparks. All rights reserved.</footer>
+</div>
 </body>
 </html>

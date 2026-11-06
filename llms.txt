@@ -1,0 +1,16 @@
+# Real Sparks
+
+> Real Sparks makes small, calm games. Fun, simple, no pressure. Just games that respect your evening. Real Sparks is the independent game studio of Matthew Haber, based in Norwell, Massachusetts. All games are free and play in a web browser.
+
+## Pages
+
+- [Real Sparks home](https://realsparks.net/): the studio home page
+- [About](https://realsparks.net/about.html): about Matthew Haber and Real Sparks
+- [Games](https://games.realsparks.net/): every Real Sparks game, free to play in the browser
+
+## Elsewhere
+
+- [Real Sparks on itch.io](https://realsparks.itch.io)
+- [Real Sparks on YouTube](https://www.youtube.com/@Realsparksgames)
+- [Real Sparks on LinkedIn](https://www.linkedin.com/company/realsparks/)
+- [Real Sparks on Bluesky](https://bsky.app/profile/realsparksgames.bsky.social)

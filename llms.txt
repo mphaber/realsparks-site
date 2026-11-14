@@ -14,3 +14,26 @@
 - [Real Sparks on YouTube](https://www.youtube.com/@Realsparksgames)
 - [Real Sparks on LinkedIn](https://www.linkedin.com/company/realsparks/)
 - [Real Sparks on Bluesky](https://bsky.app/profile/realsparksgames.bsky.social)
+
+## Matthew Haber
+
+Matthew Haber is the owner of Real Sparks, an independent studio based in Norwell, Massachusetts. He has worked in website design and marketing for 30 years, and he designs and develops the small, calm browser games published by Real Sparks.
+
+Games by Matthew Haber:
+
+- Popeka!: https://games.realsparks.net/popeka/
+- Thrink: https://games.realsparks.net/thrink/
+- Twinnow: https://games.realsparks.net/twinnow/
+- Scribble Siege: https://games.realsparks.net/scribble-siege/
+- Breadcrumb: https://games.realsparks.net/breadcrumb/
+- Xenofront: https://games.realsparks.net/xenofront/
+- Creature Park: https://games.realsparks.net/creature-park/
+
+Profiles:
+
+- itch.io: https://realsparks.itch.io
+- YouTube: https://www.youtube.com/@Realsparksgames
+- LinkedIn: https://www.linkedin.com/company/realsparks/
+- Bluesky: https://bsky.app/profile/realsparksgames.bsky.social
+- Reddit: https://www.reddit.com/user/realsparksgames/
+- GitHub: https://github.com/mphaber

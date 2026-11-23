@@ -6,6 +6,7 @@
 
 - [Real Sparks home](https://realsparks.net/): the studio home page
 - [About](https://realsparks.net/about.html): about Matthew Haber and Real Sparks
+- [Contact](https://realsparks.net/contact.html): start a project with the intake form, or email Matthew Haber
 - [Games](https://games.realsparks.net/): every Real Sparks game, free to play in the browser
 
 ## Elsewhere
